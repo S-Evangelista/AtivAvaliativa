@@ -1,0 +1,41 @@
+
+:root{ 
+        --cor-primaria: #000000;
+        --cor-secundaria: #5846FB;
+        --cor-terciaria: #FFFFFF;
+    
+}
+
+
+    .cabeçalho {display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                padding: 1rem;}
+        
+    #logo img {
+        width: 4rem;
+    }
+    
+    .cabeçalho_menu ul {
+        list-style: none;
+        display: flex;
+    
+
+    }
+    
+    .cabeçalho_menu a {
+        color: var(--cor-primaria);
+        justify-content: space-between;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-decoration: none;
+       
+    }
+    
+    .cabeçalho_menu li {
+        margin: 0 1rem;
+        -ms-flex-align: center;
+    }
+
+    
